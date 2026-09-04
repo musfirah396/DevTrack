@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>DevTrack</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+    <!-- =================================
+         SIDEBAR
+    ================================== -->
+
+    <aside class="sidebar">
+
+
+        <div class="brand">
+
+            <span class="brand-icon">
+                DT
+            </span>
+
+            <h2 class="logo">
+                DevTrack
+            </h2>
+
+        </div>
+
+
+        <ul class="menu">
+
+            <li>
+                <a href="#"
+                   class="active"
+                   data-view="dashboard">
+
+                    🏠 Dashboard
+
+                </a>
+            </li>
+
+
+            <li>
+                <a href="#"
+                   data-view="projects">
+
+                    📁 Projects
+
+                </a>
+            </li>
+
+
+            <li>
+                <a href="#"
+                   data-view="tasks">
+
+                    ✅ Tasks
+
+                </a>
+            </li>
+
+
+            <li>
+                <a href="#"
+                   data-view="settings">
+
+                    ⚙️ Settings
+
+                </a>
+            </li>
+
+        </ul>
+    </aside>
+
+
+
+    <!-- =================================
+         MAIN
+    ================================== -->
+
+    <main class="main">
+
+
+        <!-- TOPBAR -->
+
+        <div class="topbar">
+
+            <h2 class="topbar-title"
+                id="topbar-title">
+
+                Welcome to my Dashboard
+
+            </h2>
+
+            <div class="topbar-right">
+
+                <div class="topbar-profile">
+
+                    <span class="topbar-avatar">
+                        MC
+                    </span>
+
+                    <div class="topbar-user-info">
+                        <p class="topbar-user-name">Musfirah Chaudhry</p>
+                        <p class="topbar-user-handle">@musfirahch396</p>
+                    </div>
+
+                </div>
+
+                <button class="moon-icon"
+                        id="theme-btn">
+
+                    🌙
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================
+             DASHBOARD
+        ================================== -->
+
+        <section class="content view active"
+                 id="view-dashboard">
+
+
+            <h1 class="welcome-title">
+
+                Good to see you, Musfirah Chaudhry👋
+
+            </h1>
+
+
+            <p class="welcome-sub">
+
+                Here's where your projects stand right now.
+
+            </p>
+
+
+
+            <!-- STAT CARDS -->
+
+            <div class="stat-grid">
+
+
+                <div class="stat-card">
+
+                    <div class="stat-num">
+                        13
+                    </div>
+
+                    <div class="stat-label">
+                        Total projects
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-num">
+                        10
+                    </div>
+
+                    <div class="stat-label">
+                        Completed projects
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-num">
+                        35
+                    </div>
+
+                    <div class="stat-label">
+                        Total tasks
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-num">
+                        29
+                    </div>
+
+                    <div class="stat-label">
+                        Completed tasks
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- OVERALL PROGRESS -->
+
+            <div class="box">
+
+                <h3 class="box-title">
+                    Overall Progress
+                </h3>
+
+
+                <div class="progress-track">
+
+                    <div class="progress-fill"
+                         style="width:78%;">
+
+                    </div>
+
+                </div>
+
+
+                <p class="progress-text">
+                    78%
+                </p>
+
+            </div>
+
+
+
+            <!-- ACTIVE PROJECTS -->
+
+            <div class="box">
+
+                <h3 class="box-title">
+                    Active Projects
+                </h3>
+
+
+                <div class="project-row">
+
+                    <div class="project-row-top">
+
+                        <span>
+                            Portfolio
+                        </span>
+
+                        <span>
+                            60%
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-track">
+
+                        <div class="progress-fill"
+                             style="width:60%;">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="project-row">
+
+                    <div class="project-row-top">
+
+                        <span>
+                            Hospital Management System
+                        </span>
+
+                        <span>
+                            50%
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-track">
+
+                        <div class="progress-fill"
+                             style="width:50%;">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="project-row">
+
+                    <div class="project-row-top">
+
+                        <span>
+                            Mini OS System
+                        </span>
+
+                        <span>
+                            50%
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-track">
+
+                        <div class="progress-fill"
+                             style="width:50%;">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- RECENT ACTIVITY -->
+
+            <div class="box">
+
+                <h3 class="box-title">
+                    Recent Activity
+                </h3>
+
+
+                <ul class="activity-list">
+
+                    <li>
+                        <span class="check">
+                            ✓
+                        </span>
+
+                        Completed Navbar
+                    </li>
+
+
+                    <li>
+                        <span class="check">
+                            ✓
+                        </span>
+
+                        Added Project Cards
+                    </li>
+
+
+                    <li>
+                        <span class="check">
+                            ✓
+                        </span>
+
+                        Finished Responsive Layout
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================
+             PROJECTS
+        ================================== -->
+
+        <section class="content view"
+                 id="view-projects">
+
+
+            <div class="section-header">
+
+                <h1 class="welcome-title">
+                    Projects
+                </h1>
+
+
+                <button class="btn-add">
+                    + Add project
+                </button>
+
+            </div>
+
+
+
+            <div class="project-grid">
+
+
+
+                <!-- PROJECT 1 -->
+
+                <div class="project-card"
+                     style="border-top-color:#e34c26;">
+
+                    <h3 class="project-name">
+                        Portfolio
+                    </h3>
+
+
+                    <div class="lang-row">
+
+                        <span class="lang-dot"
+                              style="background:#e34c26;">
+
+                        </span>
+
+                        HTML
+
+                    </div>
+
+
+                    <p class="project-desc">
+
+                        Personal portfolio website
+                        showcasing projects and skills.
+
+                    </p>
+
+
+                    <div class="progress-inline">
+
+                        <div class="progress-track">
+
+                            <div class="progress-fill"
+                                 style="width:50%;">
+
+                            </div>
+
+                        </div>
+
+                        <span class="progress-pct">
+                            50%
+                        </span>
+
+                    </div>
+
+
+                    <p class="tasks-done">
+                        2 / 4 tasks completed
+                    </p>
+
+
+                    <div class="card-buttons">
+
+                       
+
+                        <button class="btn btn-delete">
+
+                            Delete
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PROJECT 2 -->
+
+                <div class="project-card"
+                     style="border-top-color:#e34c26;">
+
+                    <h3 class="project-name">
+                        Amazon Frontend Clone
+                    </h3>
+
+
+                    <div class="lang-row">
+
+                        <span class="lang-dot"
+                              style="background:#e34c26;">
+
+                        </span>
+
+                        HTML
+
+                    </div>
+
+
+                    <p class="project-desc">
+
+                        Frontend clone of the Amazon
+                        homepage built with HTML & CSS.
+
+                    </p>
+
+
+                    <div class="progress-inline">
+
+                        <div class="progress-track">
+
+                            <div class="progress-fill"
+                                 style="width:100%;">
+
+                            </div>
+
+                        </div>
+
+                        <span class="progress-pct">
+                            100%
+                        </span>
+
+                    </div>
+
+
+                    <p class="tasks-done">
+                        3 / 3 tasks completed
+                    </p>
+
+
+                    <div class="card-buttons">
+
+                        <button class="btn btn-delete">
+                            Delete
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+              
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             TASKS
+        ================================== -->
+
+        <section class="content view"
+                 id="view-tasks">
+
+
+            <div class="section-header">
+
+                <div>
+
+                    <h1 class="welcome-title">
+                        Tasks
+                    </h1>
+
+                    <p class="welcome-sub">
+
+                        Break down your projects,
+                        track your progress,
+                        and get things done.
+
+                    </p>
+
+                </div>
+
+
+                <button class="btn-add"
+                        id="add-task-btn">
+
+                    + Add Task
+
+                </button>
+
+            </div>
+
+
+
+            <!-- FILTERS -->
+
+            <div class="task-filters">
+
+                <button class="task-filter active"
+                        data-filter="all">
+
+                    All
+
+                </button>
+
+
+                <button class="task-filter"
+                        data-filter="active">
+
+                    Active
+
+                </button>
+
+
+                <button class="task-filter"
+                        data-filter="completed">
+
+                    Completed
+
+                </button>
+
+            </div>
+
+
+
+            <!-- TASK LIST -->
+
+            <div class="task-list"
+                 id="task-list">
+
+
+                <!-- TASK 1 -->
+
+                <div class="task-card"
+                     data-status="active">
+
+                    <input type="checkbox"
+                           class="task-checkbox">
+
+
+                    <div class="task-details">
+
+                        <h3>
+                            Build Taskbar
+                        </h3>
+
+                        <p>
+                            Create the main layout
+                            for the website.
+                        </p>
+
+                    </div>
+
+
+                    <span class="task-project">
+                        DevTrack
+                    </span>
+
+
+                    <span class="task-date">
+                        Due: Sep 1, 2026
+                    </span>
+
+
+                    <button class="task-menu">
+                        ⋮
+                    </button>
+
+                </div>
+
+
+
+                <!-- TASK 2 -->
+
+                <div class="task-card"
+                     data-status="active">
+
+                    <input type="checkbox"
+                           class="task-checkbox">
+
+
+                    <div class="task-details">
+
+                        <h3>
+                            Add navigation
+                        </h3>
+
+                        <p>
+                            Finish the sidebar
+                            and navigation links.
+                        </p>
+
+                    </div>
+
+
+                    <span class="task-project">
+                        DevTrack
+                    </span>
+
+
+                    <span class="task-date">
+                        Due: Aug 25, 2026
+                    </span>
+
+
+                    <button class="task-menu">
+                        ⋮
+                    </button>
+
+                </div>
+
+
+
+                <!-- TASK 3 -->
+
+                <div class="task-card completed-task"
+                     data-status="completed">
+
+                    <input type="checkbox"
+                           class="task-checkbox"
+                           checked>
+
+
+                    <div class="task-details">
+
+                        <h3>
+                            Setup repository
+                        </h3>
+
+                        <p>
+                            Create the Git repository
+                            and initial project files.
+                        </p>
+
+                    </div>
+
+
+                    <span class="task-project">
+                        DevTrack
+                    </span>
+
+
+                    <span class="task-date">
+                        Completed
+                    </span>
+
+
+                    <button class="task-menu">
+                        ⋮
+                    </button>
+
+                </div>
+
+
+
+                <!-- TASK 4 -->
+
+                <div class="task-card"
+                     data-status="active">
+
+                    <input type="checkbox"
+                           class="task-checkbox">
+
+
+                    <div class="task-details">
+
+                        <h3>
+                            Create project cards
+                        </h3>
+
+                        <p>
+                            Design and add cards
+                            for all projects.
+                        </p>
+
+                    </div>
+
+
+                    <span class="task-project">
+                        DevTrack
+                    </span>
+
+
+                    <span class="task-date">
+                        Due: Aug 27, 2026
+                    </span>
+
+
+                    <button class="task-menu">
+                        ⋮
+                    </button>
+
+                </div>
+
+
+
+                <!-- TASK 5 -->
+
+                <div class="task-card completed-task"
+                     data-status="completed">
+
+                    <input type="checkbox"
+                           class="task-checkbox"
+                           checked>
+
+
+                    <div class="task-details">
+
+                        <h3>
+                            Finish responsive layout
+                        </h3>
+
+                        <p>
+                            Make the website responsive
+                            for different screen sizes.
+                        </p>
+
+                    </div>
+
+
+                    <span class="task-project">
+                        Portfolio
+                    </span>
+
+
+                    <span class="task-date">
+                        Completed
+                    </span>
+
+
+                    <button class="task-menu">
+                        ⋮
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+      <section id="view-settings" class="view">
+
+    <div class="section-header">
+        <div>
+            <h1>Settings</h1>
+            <p>Manage your preferences and account</p>
+        </div>
+    </div>
+
+    <div class="settings-container">
+
+        <!-- Appearance -->
+        <div class="settings-box">
+            <h2>Appearance</h2>
+            <p class="settings-desc">Choose your preferred theme</p>
+
+            <div class="theme-options">
+                <button class="theme-btn active" onclick="setTheme('dark')">
+                    🌙 Dark Mode
+                </button>
+
+                <button class="theme-btn" onclick="setTheme('light')">
+                    ☀️ Light Mode
+                </button>
+            </div>
+        </div>
+
+        <!-- Account -->
+        <div class="settings-box">
+            <h2>Account</h2>
+            <p class="settings-desc">Your account information</p>
+
+            <div class="account-info">
+                <div>
+                    <span>Name</span>
+                    <strong>Musfirah Chaudhry</strong>
+                </div>
+
+                <div>
+                    <span>Username</span>
+                    <strong>@musfirahch396</strong>
+                </div>
+
+                <div>
+                    <span>Email</span>
+                    <strong>musfirahch396@gmail.com</strong>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+    </main>
+
+</div>
+
+
+
+<!-- =================================
+     ADD TASK MODAL
+================================== -->
+
+<div class="modal"
+     id="task-modal">
+
+
+    <div class="modal-box">
+
+
+        <div class="modal-header">
+
+            <h2>
+                Add New Task
+            </h2>
+
+
+            <button id="close-modal">
+                ×
+            </button>
+
+        </div>
+
+
+
+        <label>
+            Task Name
+        </label>
+
+        <input type="text"
+               id="task-name"
+               placeholder="Enter task name">
+
+
+
+        <label>
+            Description
+        </label>
+
+        <input type="text"
+               id="task-description"
+               placeholder="Enter task description">
+
+
+
+        <label>
+            Project
+        </label>
+
+        <select id="task-project">
+
+            <option>
+                DevTrack
+            </option>
+
+            <option>
+                Portfolio
+            </option>
+
+            <option>
+                Hospital Management System
+            </option>
+
+            <option>
+                Mini OS System
+            </option>
+
+        </select>
+
+
+
+        <label>
+            Due Date
+        </label>
+
+        <input type="date"
+               id="task-date">
+
+
+
+        <button class="save-task"
+                id="save-task">
+
+            Add Task
+
+        </button>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
